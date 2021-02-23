@@ -1,0 +1,48 @@
+[[package]]
+name = "click"
+version = "7.1.2"
+description = "Composable command line interface toolkit"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "pytomlpp"
+version = "0.3.5"
+description = "A python wrapper for toml++"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "39db2c053ffa21be0da6dd642536f83aeebb22daf5d1e229e382de6c50f57930"
+
+[metadata.files]
+click = [
+    {file = "click-7.1.2-py2.py3-none-any.whl", hash = "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"},
+    {file = "click-7.1.2.tar.gz", hash = "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a"},
+]
+pytomlpp = [
+    {file = "pytomlpp-0.3.5-cp35-cp35m-macosx_10_9_x86_64.whl", hash = "sha256:d10884b13222b2f4da19c43bfd3dbd051b4699e3ab283b68a43afbed90cc585d"},
+    {file = "pytomlpp-0.3.5-cp35-cp35m-manylinux2010_i686.whl", hash = "sha256:5a6bb0c53de8beae43fb0e4ca291edbc31e2d4d21a0505354df5a9f27f692914"},
+    {file = "pytomlpp-0.3.5-cp35-cp35m-manylinux2010_x86_64.whl", hash = "sha256:0dcfbc123b02ddd7f3cf9c1045379ff02d96a800e70b91ee2ef38f3450c91ccb"},
+    {file = "pytomlpp-0.3.5-cp35-cp35m-win_amd64.whl", hash = "sha256:9db6eb225004cbcabbef7b90ee2cd3d121d73263c16b328462fba03ddfe29a71"},
+    {file = "pytomlpp-0.3.5-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:bae043b8a874e218f904208febab9a285adb13c2d2f8d4ee9fcd4696cf2ad9de"},
+    {file = "pytomlpp-0.3.5-cp36-cp36m-manylinux2010_i686.whl", hash = "sha256:c71e327074f0f76ed96ecb846dbf8195f5033fe95cf0d2ae40c7c4bf0d1106c7"},
+    {file = "pytomlpp-0.3.5-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:c7ea9a44b86fbeba981ee0f1576a1f7a22e0e6d701ddeb1c2d86f4a9e170493d"},
+    {file = "pytomlpp-0.3.5-cp36-cp36m-win_amd64.whl", hash = "sha256:7397d9be88a2ae7d5ae6a72a76cdd76896b45790d4f462f0e11ee4843aaa4a11"},
+    {file = "pytomlpp-0.3.5-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:1ed8545d1ea1d32c28c109b124fa4205a9fb06c800a609a7216767ffe27fb853"},
+    {file = "pytomlpp-0.3.5-cp37-cp37m-manylinux2010_i686.whl", hash = "sha256:19ba13631b5085846406affa9d81fe261bd37e03d0afc70b74fddfea9835a846"},
+    {file = "pytomlpp-0.3.5-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:04a45b6c1012f6bd349222b7c80e2ca96670ed280f4a4c04dd98a55efdb70599"},
+    {file = "pytomlpp-0.3.5-cp37-cp37m-win_amd64.whl", hash = "sha256:382073f0aea9c78c79f045ebe171f0a7e6da8d9f7fc3037e9a7b5e995a2e0d54"},
+    {file = "pytomlpp-0.3.5-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:f08fc424bc1370aed8deef237746b384a6df138ced4218cee699dcfa25933234"},
+    {file = "pytomlpp-0.3.5-cp38-cp38-manylinux2010_i686.whl", hash = "sha256:b6e10b85b9766c69449e67d95a39174fc788d1403d25e7e66726ef13b1817c5f"},
+    {file = "pytomlpp-0.3.5-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:cde5dfc2530a15c67ed19145acccc64885e2b530fa9321a31600c29a34462bf0"},
+    {file = "pytomlpp-0.3.5-cp38-cp38-win_amd64.whl", hash = "sha256:68796c50f42949d649f54d8622bd67cc22d4471600a99d702d165f672a80974e"},
+    {file = "pytomlpp-0.3.5-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:d067e96420b494149b8fe2bdc732109e75165e6dbd94f81f998f9eede9003b44"},
+    {file = "pytomlpp-0.3.5-cp39-cp39-manylinux2010_i686.whl", hash = "sha256:96e87b7342033a9665f7637e146390ef7c6047a958724d7ddf7b3e41fa0e27e5"},
+    {file = "pytomlpp-0.3.5-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:6b0cac61fd06f2c80281532d41518929b2efe9c7351c145f4960f17a49e55103"},
+    {file = "pytomlpp-0.3.5-cp39-cp39-win_amd64.whl", hash = "sha256:5226444a1c07bc6e58d8654a137eb84a689c87846ff3e906ab9a2c4d0bce6098"},
+]

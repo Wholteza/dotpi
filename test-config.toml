@@ -1,0 +1,22 @@
+[meta]
+title = "Wholteza's dotpi config"
+
+[packages.apt]
+packages = [ "feh", "vim-gtk", "tmux", "wget", "rofi", "gnupg2", "gnupg-agent", "dirmngr", "cryptsetup", "scdaemon", "pcscd", "secure-delete", "hopenpgp-tools", "yubikey-personalization", "libssl-dev", "swig", "libpcsclite-dev"]
+
+[packages.snap]
+packages = ["caprine","chromium","code","discord","notable","signal-desktop","spotify","telegram-desktop"]
+
+[bootstap.section.bashrc-aliases]
+target = "~/.bashrc"
+source = """
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi"""
+
+[bootstrap.section.bashrc-additions]
+target = "~/.bashrc"
+source = """
+if [ -f ~/.bash_additions ]; then
+    . ~/.bash_additions
+fi"""

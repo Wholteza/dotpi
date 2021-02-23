@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dotpi"
+version = "0.1.0"
+description = "Bootstrap dotfiles and manage package installations"
+authors = ["Zackarias Montell <zackarias@montell.se>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytomlpp = "^0.3.5"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+dotpi = "dotpi.console:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
